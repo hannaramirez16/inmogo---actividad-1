@@ -1,0 +1,10 @@
+/* Import Tailwind first (build will process this) */
+@import 'tailwindcss';
+
+/* Modern UI font - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
+
+/* Apply the font globally */
+html, body {
+	font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
